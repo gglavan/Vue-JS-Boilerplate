@@ -1,4 +1,4 @@
-# vue-2-boilerplate
+# VueJS 2 Boilerplate
 > A boilerplate for building medium to large Vue 2 single page applications
 
 This boilerplate is based on the Vue webpack template.
@@ -52,15 +52,6 @@ For more information, visit the [docs](http://vuejs-templates.github.io/webpack/
   - HTML minified with [html-minifier](https://github.com/kangax/html-minifier).
   - CSS across all components extracted into a single file and minified with [cssnano](https://github.com/ben-eb/cssnano).
   - All static assets compiled with version hashes for efficient long-term caching, and a production `index.html` is auto-generated with proper URLs to these generated assets.
-
-- `npm run unit`: start the Karma Test Runner.
-  - Unit Tests are provided by Karma, Mocha, Chai and Sinon-Chai.
-  - The testing files should be place under **test/unit/specs**.
-  - Make sure every test file ends in `.spec.js`
-
-- `npm run e2e`: start the Nightwatch Test Runner.
-  - End to End (e2e) Tests are provided by Nightwatch, Selenium and PhantomJS.
-  - The testing files should be place under **test/e2e/specs**.
 
 ## Other tools ##
 ### Scaffolding ###
@@ -164,28 +155,12 @@ So given the previous example, using a transformer, it will look something like 
 ### Utils ###
 Here you can place handy utils you want to use inside your application.
 
-### Test ###
-Both the Unit Tests and the End-2-End Tests are within the `test/` folder.
-Unit Tests should go inside the `test/unit/specs` folder.
-E2e Tests should go inside the `test/e2e/specs` folder.
-You can read more about both test on the [Webpack Boilerplate Testing Session](http://vuejs-templates.github.io/webpack/unit.html).
-
-## Got questions or improvements? ##
-Feel free to hit me up on:
- - [Gitter](https://gitter.im/petervmeijgaard)
- - [GitHub](https://github.com/petervmeijgaard)
- - [Twitter](https://twitter.com/petervmeijgaard)
-
-Or create an [issue](https://github.com/petervmeijgaard/vue-2-boilerplate/issues)
-
 ## Fork It And Make Your Own ##
 What are you waiting for?!
 Make something awesome!
 
 ## License ##
 The MIT License (MIT)
-
-Copyright (c) 2016 - 2017 Peter van Meijgaard
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
